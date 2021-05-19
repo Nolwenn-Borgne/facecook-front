@@ -1,0 +1,28 @@
+@use 'sass:color';
+@use 'src/styles/vars';
+
+
+
+.category-recipe{
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+.ui.card:first-child{
+     margin: 1em 0.5em;
+}
+
+ .ui.card:last-child{
+     margin: 1em 0.5em; 
+}
+
+.ui.card{
+  margin: 1em 0.5em;
+}
+
+.ui.card>.content, .ui.cards>.card>.content{
+    display: flex;
+    height: 100%;    
+}
+
